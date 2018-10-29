@@ -13,3 +13,7 @@
 * [Arma 3 Licence de Modding](modding-modelisation-3d/arma-3-licence-de-modding.md)
 * [Arma 3 Outils Officiels \(En cours de rédaction\)](modding-modelisation-3d/arma-3-outils-officiels-en-cours-de-redaction.md)
 
+## Problèmes les plus communs
+
+* [Problèmes liés à extDB](problemes-les-plus-communs/problemes-lies-a-extdb.md)
+
