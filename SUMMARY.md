@@ -22,4 +22,5 @@
 
 * [Installer et configurer un accès FTP \(Sous Windows\)](tutoriels-annexes/installer-et-configurer-un-acces-ftp-sous-windows.md)
 * [Installer et configurer un accès FTP \(Sous Linux\)](tutoriels-annexes/installer-et-configurer-un-acces-ftp-sous-linux.md)
+* [Reboot automatique pour votre serveur](tutoriels-annexes/reboot-automatique-pour-votre-serveur.md)
 
