@@ -32,4 +32,5 @@
 * [HUD avec icônes et jauges progressives](tutoriels-life-version-5/hud-avec-icones-et-jauges-progressives.md)
 * [Salaires dynamiques](tutoriels-life-version-5/salaires-dynamiques.md)
 * [Imposer la location de véhicules](tutoriels-life-version-5/imposer-la-location-de-vehicules.md)
+* [Supprimer les langues inutiles du Stringtable](tutoriels-life-version-5/supprimer-les-langues-inutiles-du-stringtable.md)
 
