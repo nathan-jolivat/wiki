@@ -16,4 +16,5 @@
 ## Problèmes les plus communs
 
 * [Problèmes liés à extDB](problemes-les-plus-communs/problemes-lies-a-extdb.md)
+* [Obtenir ses logs](problemes-les-plus-communs/obtenir-ses-logs.md)
 
