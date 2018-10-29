@@ -24,3 +24,7 @@
 * [Installer et configurer un accès FTP \(Sous Linux\)](tutoriels-annexes/installer-et-configurer-un-acces-ftp-sous-linux.md)
 * [Reboot automatique pour votre serveur](tutoriels-annexes/reboot-automatique-pour-votre-serveur.md)
 
+## Tutoriels Life - Version 5
+
+* [Bourse Dynamique](tutoriels-life-version-5/bourse-dynamique.md)
+
