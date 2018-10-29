@@ -28,4 +28,5 @@
 
 * [Bourse Dynamique](tutoriels-life-version-5/bourse-dynamique.md)
 * [Menu Y - Réadapté pour la 5.0](tutoriels-life-version-5/menu-y-readapte-pour-la-5.0.md)
+* [Menu d'objets plaçables](tutoriels-life-version-5/menu-dobjets-placables.md)
 
