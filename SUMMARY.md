@@ -18,3 +18,7 @@
 * [Problèmes liés à extDB](problemes-les-plus-communs/problemes-lies-a-extdb.md)
 * [Obtenir ses logs](problemes-les-plus-communs/obtenir-ses-logs.md)
 
+## Tutoriels Annexes
+
+* [Installer et configurer un accès FTP \(Sous Windows\)](tutoriels-annexes/installer-et-configurer-un-acces-ftp-sous-windows.md)
+
