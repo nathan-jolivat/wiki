@@ -6,4 +6,5 @@
 
 * [Introduction](installation-et-configuration-dun-serveur-altis-life-de-a-a-z-1/introduction.md)
 * [Installation et configuration sous Windows](installation-et-configuration-dun-serveur-altis-life-de-a-a-z-1/installation-et-configuration-sous-windows.md)
+* [Installation et configuration sous Linux](installation-et-configuration-dun-serveur-altis-life-de-a-a-z-1/installation-et-configuration-sous-linux.md)
 
