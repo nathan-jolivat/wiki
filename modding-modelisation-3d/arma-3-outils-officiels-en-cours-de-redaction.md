@@ -20,11 +20,17 @@ Les outils sont disponible gratuitement dans le magasin Steam. http://store.stea
 
 #### Information de base <a id="bkmrk-information-de-base"></a>
 
-**Auteur:** Bohemia Interactive
+{% hint style="info" %}
+ **Auteur:** Bohemia Interactive
+{% endhint %}
 
-**Compatibilité:** Arma 3
+{% hint style="info" %}
+ **Compatibilité:** Arma 3
+{% endhint %}
 
-**Téléchargement:** [Disponible gratuitement sur Steam](http://store.steampowered.com/app/233800/)
+{% hint style="info" %}
+ **Téléchargement:** [Disponible gratuitement sur Steam](http://store.steampowered.com/app/233800/)
+{% endhint %}
 
 #### Description <a id="bkmrk-description"></a>
 
@@ -41,45 +47,63 @@ Addon Builder est un outils d'archivage crée par Bohemia Interractive. Le but d
 
 Licence: [Bohemia Interactive End User License Agreement](https://community.bistudio.com/wiki/End_User_License_Agreement_for_BI%27s_Tools)
 
-Voir aussi: [BinPBO](https://community.bistudio.com/wiki/BinPBO)
+Voir aussi: [BinPBO](https://community.bistudio.com/wiki/BinPBO)  
 
 #### Paramètres <a id="bkmrk-param%C3%A8tres"></a>
 
-Clear temp folder
+{% hint style="info" %}
+ Clear temp folder
+{% endhint %}
 
-Cette case à cocher dans l'écran principal de l'interface permet à l'utilisateur d'archiver des données propres sans aucune interférence. L'archivage prend plus longtemps après avoir nettoyé le dossier temporaire, mais les données ne peuvent pas être affectées par des versions précédentes. Utilisez-le régulièrement si vous archivez des données faisant référence à d'autre addons pour assurer que tout fait correctement référence.
+ Cette case à cocher dans l'écran principal de l'interface permet à l'utilisateur d'archiver des données propres sans aucune interférence. L'archivage prend plus longtemps après avoir nettoyé le dossier temporaire, mais les données ne peuvent pas être affectées par des versions précédentes. Utilisez-le régulièrement si vous archivez des données faisant référence à d'autre addons pour assurer que tout fait correctement référence.
 
-Sign output PBO file
+{% hint style="info" %}
+ Sign output PBO file
+{% endhint %}
 
-Utilisez cette option pour créer les signatures numériques du PBO. L'utilisation de la clé numérique est définie dans des options. Utilisez [DSCREATEKEY](https://community.bistudio.com/wiki/DSCreateKey) pour créer la clé.
+ Utilisez cette option pour créer les signatures numériques du PBO. L'utilisation de la clé numérique est définie dans des options. Utilisez [DSCREATEKEY](https://community.bistudio.com/wiki/DSCreateKey) pour créer la clé.
 
-Binarize
+{% hint style="info" %}
+ Binarize
+{% endhint %}
 
-Cette option vous permet de convertir les fichiers dans le format lisible par le Moteur RV. Laissez coché la plupart du temps à moins que vous ne vouliez publier les MLOD \(les sources 3D\).
+ Cette option vous permet de convertir les fichiers dans le format lisible par le Moteur RV. Laissez coché la plupart du temps à moins que vous ne vouliez publier les MLOD \(les sources 3D\).
 
-List of files to copy directly
+{% hint style="info" %}
+ List of files to copy directly
+{% endhint %}
 
-C'est la liste d'extensions de fichiers à copier directement dans l'archive PBO. Des extensions de fichiers sont dans la liste par défaut.
+ C'est la liste d'extensions de fichiers à copier directement dans l'archive PBO. Des extensions de fichiers sont dans la liste par défaut.
 
-Addon prefix
+{% hint style="info" %}
+ Addon prefix
+{% endhint %}
 
-Utilisez cette option pour mettre le préfixe de chemin à la structure de l'addon.
+ Utilisez cette option pour mettre le préfixe de chemin à la structure de l'addon.
 
-Path to signature file
+{% hint style="info" %}
+ Path to signature file
+{% endhint %}
 
-Utilisez ce chemin vers une clé si vous voulez signer votre PBO avec la signature numérique, le laisser vide dans le cas contraire.
+ Utilisez ce chemin vers une clé si vous voulez signer votre PBO avec la signature numérique, le laisser vide dans le cas contraire.
 
-Path to temporary folder
+{% hint style="info" %}
+ Path to temporary folder
+{% endhint %}
 
-C'est le chemin vers le dossier temporaire. Vide \(par défaut\), c'est le dossier temporaire Windows qui est utilisé. Pour pouvez rapidement vider ce dossier avec Clear temp folder.
+ C'est le chemin vers le dossier temporaire. Vide \(par défaut\), c'est le dossier temporaire Windows qui est utilisé. Pour pouvez rapidement vider ce dossier avec Clear temp folder.
 
-Path to project folder
+{% hint style="info" %}
+ Path to project folder
+{% endhint %}
 
-C'est le même chemin que le répertoire source mais permet la jonction d'addons différent. Plus d'informations [ICI](https://community.bistudio.com/wiki/Addon_Builder).
+ C'est le même chemin que le répertoire source mais permet la jonction d'addons différent. Plus d'informations [ICI](https://community.bistudio.com/wiki/Addon_Builder).
 
-Exclusion pattern file
+{% hint style="info" %}
+ Exclusion pattern file
+{% endhint %}
 
-C'est le chemin du fichier qui permet d'exclure certains fichiers du PBO résultant.
+ C'est le chemin du fichier qui permet d'exclure certains fichiers du PBO résultant.
 
-[Source et plus d'informations](https://community.bistudio.com/wiki/Addon_Builder)
+  [Source et plus d'informations](https://community.bistudio.com/wiki/Addon_Builder)
 
