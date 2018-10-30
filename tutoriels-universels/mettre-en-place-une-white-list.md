@@ -102,7 +102,7 @@ class whitelistRes {};
 ```
 
 {% hint style="info" %}
-Ce qui donnera par exemple:  
+Ce qui donnera par exemple:
 {% endhint %}
 
 ```text
