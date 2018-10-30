@@ -40,4 +40,7 @@
 
 * [Trafic Aérien](tutoriels-universels/trafic-aerien.md)
 * [Feu d'artifice](tutoriels-universels/feu-dartifice.md)
+* [Circuit de Course](tutoriels-universels/circuit-de-course.md)
+* [Modification de l'interface du SpawnMenu](tutoriels-universels/modification-de-linterface-du-spawnmenu.md)
+* [Gopro Et Caméra De Sécurité](tutoriels-universels/gopro-et-camera-de-securite.md)
 

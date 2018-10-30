@@ -1,0 +1,167 @@
+---
+description: >-
+  Vous verrez à travers ce chapitre comment modifier le menu afficher lorsque
+  vous devez choisir une ville d'apparition.
+---
+
+# Modification de l'interface du SpawnMenu
+
+## 1- Introduction <a id="bkmrk-page-title"></a>
+
+**But de ce tutoriel**
+
+Ce tutoriel vous permettra d'avoir une nouvelle interface de connexion à votre serveur. Cette interface est visible lors du choix de la ville d'apparition, lors de la connexion du joueur. 
+
+Crédits de l'auteur : [Repentz ](https://www.altisliferpg.com/profile/601-repentz/)
+
+**Aperçu du résultat une fois implanté**
+
+[![NpHsUEF8bIwjOAkV-1503946085-arma-3-screenshot-2017-08-28-20-46-35-33.png](https://wiki.altisdev.com/uploads/images/gallery/2017-08-Aug/scaled-840-0/NpHsUEF8bIwjOAkV-1503946085-arma-3-screenshot-2017-08-28-20-46-35-33.png)](https://wiki.altisdev.com/uploads/images/gallery/2017-08-Aug/NpHsUEF8bIwjOAkV-1503946085-arma-3-screenshot-2017-08-28-20-46-35-33.png)
+
+**Textures complémentaires à télécharger**
+
+Vous devez maintenant **télécharger** les textures \(_Ressources\_SpawnMenu.rar_\) à mettre dans :
+
+`mpmissions/Altis_Life.Altis/`**`textures`** 
+
+ Le fichier est disponible en pièce jointe.
+
+{% hint style="info" %}
+Niveau de difficulté : **Facile**  
+Temps requis : **2 minutes**
+{% endhint %}
+
+## 2- Installation <a id="bkmrk-page-title"></a>
+
+**Fichiers concernés** 
+
+* `/mpmissions/Altis_Life.Altis/dialog/`**`spawnSelection.hpp`**
+* `/mpmissions/Altis_Life.Altis/textures/`**`background.jpg`**
+* `/mpmissions/Altis_Life.Altis/textures/`**`spawn_interface.paa`**
+
+**Mise en place**
+
+1- **Allez** dans `/mpmissions/Altis_Life.Altis/dialog/`**`spawnSelection.hpp`**, puis remplacez le contenu de votre fichier par : 
+
+{% code-tabs %}
+{% code-tabs-item title="spawnSelection.hpp" %}
+```php
+class life_spawn_selection
+{
+ idd = 38500;
+ movingEnabled = 0;
+ enableSimulation = 1;
+
+ class controlsBackground
+ {
+	class BGha: Life_RscPicture
+	{
+		idc = 38531;
+		text = "textures\background.jpg";
+		x = 0 * safezoneW + safezoneX;
+		y = 0 * safezoneH + safezoneY;
+		w = 1 * safezoneW;
+		h = 1 * safezoneH;
+	};
+	class BGMenu: Life_RscPicture
+	{
+		idc = 38531;
+		text = "textures\spawn_interface.paa";
+		x = 0.190625 * safezoneW + safezoneX;
+		y = 0.093 * safezoneH + safezoneY;
+		w = 0.629062 * safezoneW;
+		h = 0.792 * safezoneH;
+	};
+
+    class MapView : Life_RscMapControl
+    {
+		idc = 38502;
+		colorBackground[] = {0,0,0,0.7};
+		x = 0.37625 * safezoneW + safezoneX;
+		y = 0.324 * safezoneH + safezoneY;
+		w = 0.376406 * safezoneW;
+		h = 0.418 * safezoneH;
+		maxSatelliteAlpha = 0.75;//0.75;
+		alphaFadeStartScale = 1.15;//0.15;
+		alphaFadeEndScale = 1.29;//0.29;
+    };
+};
+
+ class controls
+ {
+  class SpawnPointList: Life_RscListNBox
+  {
+   idc = 38510;
+   text = "";
+   sizeEx = 0.041;
+   coloumns[] = {0,0,0.9};
+   drawSideArrows = 0;
+   idcLeft = -1;
+   idcRight = -1;
+   rowHeight = 0.050;
+	x = 0.247344 * safezoneW + safezoneX;
+	y = 0.324 * safezoneH + safezoneY;
+	w = 0.12375 * safezoneW;
+	h = 0.374 * safezoneH;
+   onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
+  };
+
+  class spawnButton : Life_RscButtonMenu
+  {
+   idc = -1;
+   type = 1;
+   style = "0x02";
+   colorBackground[] = {0.03,0.55,0.95,1};
+   text = "Spawn";
+   onButtonClick = "[] call life_fnc_spawnConfirm";
+	x = 0.247344 * safezoneW + safezoneX;
+	y = 0.709 * safezoneH + safezoneY;
+	w = 0.12375 * safezoneW;
+	h = 0.033 * safezoneH;
+   colorBackgroundActive[] = {0.06,0.32,0.96,1};
+   colorBackgroundDisabled[] = {0.95,0.95,0.95,0};
+   offsetX = 0.003;
+   offsetY = 0.003;
+   offsetPressedX = 0.002;
+   offsetPressedY = 0.002;
+   colorShadow[] = {0,0,0,1};
+   colorBorder[] = {0,0,0,0};
+   borderSize = 0.008;
+  };
+  /*
+  class LastPos : Life_RscButtonMenu
+  {
+   idc = 1001;
+   type = 1;
+   style = "0x02";
+   colorBackground[] = {0,1,0,0.5};
+   text = "Letzte Position";
+   onButtonClick = "[] call life_fnc_spawnLast";
+   x = 0.247344 * safezoneW + safezoneX;
+	y = 0.665 * safezoneH + safezoneY;
+	w = 0.12375 * safezoneW;
+	h = 0.033 * safezoneH;
+   colorBackgroundActive[] = {0,1,0,0.7};
+   colorBackgroundDisabled[] = {0.95,0.95,0.95,0};
+   offsetX = 0.003;
+   offsetY = 0.003;
+   offsetPressedX = 0.002;
+   offsetPressedY = 0.002;
+   colorShadow[] = {0,0,0,1};
+   colorBorder[] = {0,0,0,0};
+   borderSize = 0.008;
+  };*/
+ };
+};
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+2- **Décompressez** l'archive _Ressources\_SpawnMenu.rar_ téléchargée à la page précédente dans le dossier `textures` de votre mission : `mpmissions/Altis_Life.Altis/`**`textures`**
+
+**Accès aux problèmes récurrents**
+
+Si vous rencontrez des problèmes avec le tutoriel, **rendez-vous** dans la page suivante intitulé _Problèmes Récurrents ****_pour trouver une réponse à votre problème.  
+
+Merci de consulter les Problèmes Récurrents avant de créer un sujet dans l'Aide & Support de notre Forum.
+
