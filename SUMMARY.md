@@ -45,4 +45,9 @@
 * [Gopro Et Caméra De Sécurité](tutoriels-universels/gopro-et-camera-de-securite.md)
 * [Respawn d'objets](tutoriels-universels/respawn-dobjets.md)
 * [Mettre en place une White-list](tutoriels-universels/mettre-en-place-une-white-list.md)
+* [Lumières de Couleurs](tutoriels-universels/lumieres-de-couleurs.md)
+* [AddAction ATM automatique](tutoriels-universels/addaction-atm-automatique.md)
+* [SafeZone + Anti-Tirs + Messages](tutoriels-universels/safezone-+-anti-tirs-+-messages.md)
+* [Autosave](tutoriels-universels/autosave.md)
+* [Cacher les marqueurs selon les licences](tutoriels-universels/cacher-les-marqueurs-selon-les-licences.md)
 
