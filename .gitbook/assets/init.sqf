@@ -1,0 +1,1 @@
+execVM "Init\Init_Feu_Artifice.sqf";

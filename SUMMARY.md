@@ -39,4 +39,5 @@
 ## Tutoriels Universels
 
 * [Trafic Aérien](tutoriels-universels/trafic-aerien.md)
+* [Feu d'artifice](tutoriels-universels/feu-dartifice.md)
 
