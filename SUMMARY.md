@@ -34,4 +34,5 @@
 * [Imposer la location de véhicules](tutoriels-life-version-5/imposer-la-location-de-vehicules.md)
 * [Supprimer les langues inutiles du Stringtable](tutoriels-life-version-5/supprimer-les-langues-inutiles-du-stringtable.md)
 * [Gestion du téléphone](tutoriels-life-version-5/gestion-du-telephone.md)
+* [Gestion du GPS](tutoriels-life-version-5/gestion-du-gps.md)
 
