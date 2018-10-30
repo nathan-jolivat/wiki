@@ -1,2 +1,2 @@
-# Initial page
+# Bienvenue sur la doc Altisdev
 
