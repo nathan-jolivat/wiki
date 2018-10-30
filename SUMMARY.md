@@ -44,4 +44,5 @@
 * [Modification de l'interface du SpawnMenu](tutoriels-universels/modification-de-linterface-du-spawnmenu.md)
 * [Gopro Et Caméra De Sécurité](tutoriels-universels/gopro-et-camera-de-securite.md)
 * [Respawn d'objets](tutoriels-universels/respawn-dobjets.md)
+* [Mettre en place une White-list](tutoriels-universels/mettre-en-place-une-white-list.md)
 
